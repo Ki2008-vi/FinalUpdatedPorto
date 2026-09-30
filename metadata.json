@@ -1,0 +1,6 @@
+{
+  "name": "Majd Portfolio Clone",
+  "description": "A pixel-perfect dark-themed portfolio featuring premium layouts, interactive GSAP effects, and smooth scrolls.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
