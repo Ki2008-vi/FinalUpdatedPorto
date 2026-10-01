@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62.5..125,100..900;1,62.5..125,100..900&display=swap');
 @import "tailwindcss";
 
 @theme {
@@ -9,6 +9,12 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 1025px;
 }
+
+:root {
+  --fw: 900;
+  --fs: 100;
+}
+
 /* Custom baseline styling */
 html, body {
   background-color: #0a0a0a;
@@ -17,6 +23,23 @@ html, body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  --fw: 900;
+  --fs: 100;
+}
+
+/* Elastic Draggable Text interactive grab cursor */
+body.grab,
+body.grab * {
+  cursor: grabbing !important;
+  user-select: none !important;
+}
+
+.stage .char {
+  display: inline-block;
+  transform-origin: center bottom;
+  cursor: grab;
+  user-select: none;
+  touch-action: none;
 }
 
 /* Custom scroll bar style */

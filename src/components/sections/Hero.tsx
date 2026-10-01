@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import { SplitText } from "../ui/SplitText";
+import { ElasticHeroText } from "../ui/ElasticHeroText";
 import { ImageFlip } from "../ui/ImageFlip";
 import { gsap } from "../../lib/gsap";
 
@@ -237,22 +237,7 @@ export const Hero: React.FC = () => {
         {/* Massive Centered Title Block */}
         <div className="w-full flex flex-col items-center select-none max-w-5xl">
           <h1 className="font-archivo font-black text-[56px] sm:text-[76px] md:text-[120px] lg:text-[110px] xl:text-[160px] leading-[0.85] tracking-[0.01em] uppercase text-black text-center flex flex-col items-center gap-2 mt-2 sm:mt-4 md:mt-6 lg:mt-8">
-            <span className="block">
-              <SplitText
-                text="HI"
-                delay={0.1}
-                trigger={triggerAnim}
-                stagger={0.06}
-              />
-            </span>
-            <span className="block">
-              <SplitText
-                text="MATE"
-                delay={0.4}
-                trigger={triggerAnim}
-                stagger={0.06}
-              />
-            </span>
+            <ElasticHeroText lines={["HI", "MATE"]} trigger={triggerAnim} />
           </h1>
         </div>
 
