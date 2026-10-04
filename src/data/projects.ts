@@ -62,6 +62,12 @@ import macbook3Img from "../assets/images/MacbookImage/3a.avif";
 import macbook4Img from "../assets/images/MacbookImage/4.avif";
 import macbook5Img from "../assets/images/MacbookImage/5a.avif";
 import macbook6Img from "../assets/images/MacbookImage/6s.avif";
+import bromo1Img from "../assets/images/BromoFP/1.avif";
+import bromo2Img from "../assets/images/BromoFP/2.avif";
+import bromo3Img from "../assets/images/BromoFP/3.avif";
+import bromo4Img from "../assets/images/BromoFP/4.avif";
+import bromo5Img from "../assets/images/BromoFP/5.avif";
+
 
 
 
@@ -73,32 +79,32 @@ import macbook6Img from "../assets/images/MacbookImage/6s.avif";
 
 export const projects: Project[] = [
   {
-    slug: "business-rental-cars-website",
+    slug: "front-page-macbook",
     id: "01",
-    title: "Luxer Rental Cars Website",
-    category: "Web Development",
-    tags: ["TypeScript", "Business", "Website"],
+    title: "Macbook Front Page",
+    category: "Web Development 3D Interactive",
+    tags: ["TypeScript", "Apple", "Website", "3D"],
     year: "2026",
     type: "Website",
     role: "Developer",
-    link: "https://github.com/Ki2008-vi/RentalCars",
-    description: "Luxer is a sleek, modern digital booking platform engineered for a premium car rental service. The platform features an intuitive, high-performance interface that streamlines the vehicle selection and reservation process, delivering an elevated user experience tailored for discerning clientele.",
-    image: rental1Img,
-    mockups: [rental2Img, rental3Img]
+    link: "https://macbook-front-page.vercel.app/",
+    description: "An interactive, high-performance web experience recreating Apple's MacBook Pro product landing page. Powered by React 19, Three.js / React Three Fiber, GSAP ScrollTrigger, and Lenis smooth scrolling, it allows users to inspect 3D MacBook models in 360°, switch colors and sizes in real time, and experience cinematic scroll-bound animations demonstrating M4 chip features and Apple Intelligence.",
+    image: macbook1Img,
+    mockups: [macbook2Img, macbook3Img, macbook4Img, macbook5Img, macbook6Img]
   },
   {
-    slug: "agency-website",
+    slug: "front-page-bromo",
     id: "02",
-    title: "Remodix Website",
-    category: "Web Development",
-    tags: ["TypeScript", "Agency", "Website"],
+    title: "Bromo Front Page",
+    category: "Web Development 3D Interactive",
+    tags: ["TypeScript", "Bromo", "Website", "3D"],
     year: "2026",
     type: "Website",
     role: "Developer",
-    link: "https://github.com/Ki2008-vi/PortofolioRyski-2",
-    description: "A premium digital presence engineered for a luxury home remodeling and construction renovation agency. The application delivers a high-end, immersive user experience designed to showcase architectural portfolios and premium services, built with a robust TypeScript architecture for optimal performance and scalability.",
-    image: agency1Img,
-    mockups: [agency2Img, agency3Img, agency4Img, agency5Img, agency6Img, agency7Img, agency8Img, agency9Img, agency10Img, agency11Img]
+    link: "https://bromo-fron-page.vercel.app/",
+    description: "An interactive, high-performance web experience recreating Bromo Tenngger Sumeru landing page. Powered by React 19, Three.js / React Three Fiber, GSAP ScrollTrigger, and Lenis smooth scrolling, it allows users interactive with 3D image",
+    image: bromo1Img,
+    mockups: [bromo2Img, bromo3Img, bromo4Img, bromo5Img]
   },
   {
     slug: "bellavistahotel-website",
@@ -212,18 +218,32 @@ export const projects: Project[] = [
     image: shio1Img,
     mockups: [shio2Img, shio3Img, shio4Img]
   },
-   {
-    slug: "front-page-macbook",
+  {
+    slug: "business-rental-cars-website",
     id: "11",
-    title: "Macbook Front Page",
-    category: "Web Development 3D Interactive",
-    tags: ["TypeScript", "Apple", "Website", "3D"],
+    title: "Luxer Rental Cars Website",
+    category: "Web Development",
+    tags: ["TypeScript", "Business", "Website"],
     year: "2026",
     type: "Website",
     role: "Developer",
-    link: "https://macbook-front-page.vercel.app/",
-    description: "An interactive, high-performance web experience recreating Apple's MacBook Pro product landing page. Powered by React 19, Three.js / React Three Fiber, GSAP ScrollTrigger, and Lenis smooth scrolling, it allows users to inspect 3D MacBook models in 360°, switch colors and sizes in real time, and experience cinematic scroll-bound animations demonstrating M4 chip features and Apple Intelligence.",
-    image: macbook1Img,
-    mockups: [macbook2Img, macbook3Img, macbook4Img, macbook5Img, macbook6Img]
+    link: "https://github.com/Ki2008-vi/RentalCars",
+    description: "Luxer is a sleek, modern digital booking platform engineered for a premium car rental service. The platform features an intuitive, high-performance interface that streamlines the vehicle selection and reservation process, delivering an elevated user experience tailored for discerning clientele.",
+    image: rental1Img,
+    mockups: [rental2Img, rental3Img]
+  },
+  {
+    slug: "agency-website",
+    id: "12",
+    title: "Remodix Website",
+    category: "Web Development",
+    tags: ["TypeScript", "Agency", "Website"],
+    year: "2026",
+    type: "Website",
+    role: "Developer",
+    link: "https://github.com/Ki2008-vi/PortofolioRyski-2",
+    description: "A premium digital presence engineered for a luxury home remodeling and construction renovation agency. The application delivers a high-end, immersive user experience designed to showcase architectural portfolios and premium services, built with a robust TypeScript architecture for optimal performance and scalability.",
+    image: agency1Img,
+    mockups: [agency2Img, agency3Img, agency4Img, agency5Img, agency6Img, agency7Img, agency8Img, agency9Img, agency10Img, agency11Img]
   }
 ];

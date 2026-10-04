@@ -115,7 +115,7 @@ export const ProjectDetailPage: React.FC<ProjectDetailPageProps> = ({
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-6 py-3 bg-black text-white rounded-full font-medium text-sm hover:bg-black/80 transition-colors w-fit"
                   >
-                    <span>REPO</span>
+                    <span>WEBSITE</span>
                     <span className="text-xs">↗</span>
                   </a>
                 </div>
